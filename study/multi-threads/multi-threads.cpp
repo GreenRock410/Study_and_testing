@@ -2,11 +2,37 @@
 //
 
 #include "pch.h"
+#include "exit_thread.h"
+
 #include <iostream>
+#include <thread>
+#include <windows.h>
+#include <future>
+
+void fce_1()
+{
+	Sleep(10000);
+	std::cout << "fce1 World!\n";
+	throw std::exception();
+}
+
+void fce_2()
+{
+	Sleep(2000);
+}
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	study::multi_threads::exit_thread::exit_thread_destructors();
+
+ //   std::cout << "Hello World!\n"; 
+
+	//std::future<void> result(std::async(std::launch::async, fce_1));
+	////std::thread t1(fce_1);
+	////t1.join();
+	//fce_2();
+	//std::cout << "main World!\n";
+	//result.get();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
