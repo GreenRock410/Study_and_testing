@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multi-threads", "multi-threads\multi-threads.vcxproj", "{A2C28CBE-2D89-437D-9E2D-9F803FDCCA58}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Avast_cpp_training_Brn0_2019_november", "Avast_cpp_training_Brn0_2019_november", "{177CADAE-0587-4BD2-9D12-27BA2F32F98C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day_1", "avast_cpp_training_Brno_2019_november\Day_1\Day_1.vcxproj", "{E8677868-2F50-4FC6-9FAE-2078D5A38A94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,9 +25,20 @@ Global
 		{A2C28CBE-2D89-437D-9E2D-9F803FDCCA58}.Release|x64.Build.0 = Release|x64
 		{A2C28CBE-2D89-437D-9E2D-9F803FDCCA58}.Release|x86.ActiveCfg = Release|Win32
 		{A2C28CBE-2D89-437D-9E2D-9F803FDCCA58}.Release|x86.Build.0 = Release|Win32
+		{E8677868-2F50-4FC6-9FAE-2078D5A38A94}.Debug|x64.ActiveCfg = Debug|x64
+		{E8677868-2F50-4FC6-9FAE-2078D5A38A94}.Debug|x64.Build.0 = Debug|x64
+		{E8677868-2F50-4FC6-9FAE-2078D5A38A94}.Debug|x86.ActiveCfg = Debug|Win32
+		{E8677868-2F50-4FC6-9FAE-2078D5A38A94}.Debug|x86.Build.0 = Debug|Win32
+		{E8677868-2F50-4FC6-9FAE-2078D5A38A94}.Release|x64.ActiveCfg = Release|x64
+		{E8677868-2F50-4FC6-9FAE-2078D5A38A94}.Release|x64.Build.0 = Release|x64
+		{E8677868-2F50-4FC6-9FAE-2078D5A38A94}.Release|x86.ActiveCfg = Release|Win32
+		{E8677868-2F50-4FC6-9FAE-2078D5A38A94}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8677868-2F50-4FC6-9FAE-2078D5A38A94} = {177CADAE-0587-4BD2-9D12-27BA2F32F98C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE6D3E82-F3EF-42B9-A6D1-14B16A41E77D}
